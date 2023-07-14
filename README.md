@@ -8,8 +8,8 @@ So ensure you maintain a good and clear descrigitptive manner README.md file  to
 ### Git hub is remote central version control system.
 ### GIT commands are:
  
- $ Git add . or git add filename
- $ git status
- $ git commit -m " include the comments"
- $ git push
- $ git pull
+ $ Git add . or git add filename ; clone and download the repo
+ $ git status   ; git will track all the changes that you made
+ $ git commit -m " include the comments"  ; commit means, you are telling system to commit/save
+ $ git push   ; pushing the changes from local to remote
+ $ git pull  ; pulling the changes from remote to local

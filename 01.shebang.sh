@@ -11,8 +11,8 @@
 ## now if you run the script , how system will come to know which interpreter  it has to use, that's where SHEBANG notation helps
 
 ## how to run a linux script    
-    . bash scriptname.sh
-    .sh scriptname.sh
-    ./scriptname
+     ## . bash scriptname.sh
+   ##  .sh scriptname.sh
+  ##  ./scriptname
 
     echo Welcome to AWS Training

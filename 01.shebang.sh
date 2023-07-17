@@ -16,4 +16,5 @@
   ## * ./scriptname
 
     echo Welcome to AWS Training
-    Bin bash is very intresting to learn
+    echo bash is very intresting to learn
+    echo make it 2 videos everyday

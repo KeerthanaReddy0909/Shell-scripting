@@ -8,3 +8,11 @@
 ##          Red         31              41
 ##          Green       32              42
 ##          Brown       33              43
+
+
+## the syntax to print the colors are
+
+##   echo -e "\e[col-CODEm your message to be printed \e[0m"
+##   echo -e "\e[32m I am printing green color \e[0m"
+
+echo -e "\e[32m I am printing green color \e[0m"

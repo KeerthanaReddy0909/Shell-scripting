@@ -18,4 +18,4 @@ c=30
 # print $variablename
 echo $a
 echo value of the variable a= $a
-echo "valueof the variable b=$b\nvalue of the variable c=$c"
+echo -e "valueof the variable b=$b\nvalue of the variable c=$c"

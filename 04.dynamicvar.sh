@@ -18,5 +18,5 @@ echo -e "good morning and todays date is \e[32m $TODAYS_DATE \e[0m"
 
 ## cat -n /etc/passwd
 
-NO_OF_SESSIONS= $(who | wc -l)
+NO_OF_SESSIONS=$(who | wc -l)
 echo -e "Total no of opened session are \e[32m $NO_OF_SESSIONS \e[0m"

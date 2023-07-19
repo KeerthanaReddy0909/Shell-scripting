@@ -6,6 +6,6 @@ echo "good morning and today's date is 18july2023"
 
 ## echo "good morning and todays date is "TODAY_DATE"
 
-TODAYS_DATE=$(date +%d)  ## always the expression is enclosed in (). put $ so the value of the expression is stored in TODAYS_DATE.
+TODAYS_DATE=$(date +%f)  ## always the expression is enclosed in (). put $ so the value of the expression is stored in TODAYS_DATE.
 
-echo -e "good morning and todays date is \e[32m;$TODAYS_DATE \e[0m"
+echo -e "good morning and todays date is \e[32m $TODAYS_DATE \e[0m"

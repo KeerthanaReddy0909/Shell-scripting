@@ -20,3 +20,4 @@ echo $a
 echo value of the variable a= $a
 echo -e "valueof the variable b=$b\nvalue of the variable c=$c"
 echo value of the variable b is ${b}
+echo value of the variable d is $d

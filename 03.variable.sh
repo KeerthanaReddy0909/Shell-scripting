@@ -21,3 +21,10 @@ echo value of the variable a= $a
 echo -e "valueof the variable b=$b\nvalue of the variable c=$c"
 echo value of the variable b is ${b}
 echo value of the variable d is $d
+
+## if you try to print a variable which is not declared, bash will consider it as null rather than error
+
+## rm -rf /data/${folder_to_delete} => rm -rf /data
+
+## export d= 70
+#the value of D is limited to the shell session.

@@ -1,7 +1,9 @@
-#!/bin/bash
+#!/bin/bash 
 
-# what is fucntion?
-# Function is to capture the repitative block and can be  used on need basics.
+
+
+## what is function?
+## Function is to capture the repitative block and can be  used on need basics.
 
 # When to use Function?
 # Whenever if you want to same block of code n number of times, rather than writting it multiple times, declare the code as function and call multiple times.

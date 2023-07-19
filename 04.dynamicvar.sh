@@ -9,3 +9,14 @@ echo "good morning and today's date is 18july2023"
 TODAYS_DATE=$(date +%F)  ## always the expression is enclosed in (). put $ so the value of the expression is stored in TODAYS_DATE.
 
 echo -e "good morning and todays date is \e[32m $TODAYS_DATE \e[0m"
+
+## who - shows the session./how many sessions are open
+
+## who | wc -l - show the word count of how amny sessions are open.
+
+## cat /etc/passwd - shows the no of profiles or user accounts that are available in system.
+
+## cat -n /etc/passwd
+
+NO_OF_SESSIONS= $(who | wc -l)
+echo "Total no of session are NO_OF_SESSIONS"

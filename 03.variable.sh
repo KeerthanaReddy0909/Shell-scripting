@@ -33,6 +33,6 @@ echo value of the variable d is $d
 
 echo $a
 echo -e "value of the variable a= \e[32m; $a \e0m "
-echo -e "valueof the variable b=$b\nvalue of the variable c= \e[34m;$c \e0m "
-echo -e "value of the variable b is \e[36m; ${b} \e0m "
+echo -e "valueof the variable b=$b\nvalue of the variable c= \e[34m; $c \e0m "
+echo -e "value of the variable b is \e[36m; $b \e0m "
 echo -e "value of the variable d is \e[37m; $d \e0m "

@@ -8,4 +8,4 @@ echo "good morning and today's date is 18july2023"
 
 TODAYS_DATE=$(date +%d)  ## always the expression is enclosed in (). put $ so the value of the expression is stored in TODAYS_DATE.
 
-echo good morning and todays date is "$TODAYS_DATE"
+echo -e "good morning and todays date is \e[32m;$TODAYS_DATE \e[0m"

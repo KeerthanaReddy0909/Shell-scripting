@@ -19,6 +19,6 @@ case $ACTION in
         echo "\e[35m Restarting RabbitMQ service \e[0m"
         ;;
     *)
-        echo "\e[36m Possible values are start or stop value only \e[0m"
+        echo -e "\e[36m Possible values are start or stop value only \e[0m"
         ;;
 esac

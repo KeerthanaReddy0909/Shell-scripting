@@ -1,24 +1,34 @@
-#!/bin/bash
+#!/bin/bash 
 
-# syntax of case
-# case $var in
-#    opt1) command;;
-#   opt2) command ;;
+# Syntax for CASE 
+# case  $var in 
+#     opt1) command1 ;; 
+     
+#     opt2) command2 ;;
 
-#esac
+# esac
 
 ACTION=$1
-case $ACTION in
-    start)
-        echo -e "\e[32m starting RabbitMQ service \e[0m"
+
+case $ACTION in                                                   # The value of action will be taken from the command line as first argument.
+    start) 
+        echo -e "\e[32m Starting RabbitMQ Service \e[0m"
+        exit 0
         ;;
-    stop)
-        echo -e "\e[33m stopping RabbitMQ service \e[0m"
+    stop) 
+        echo -e "\e[31m Stopping RabbitMQ Service \e[0m"
+        exit  1
         ;;
-    restart)
-        echo -e "\e[35m Restarting RabbitMQ service \e[0m"
+    restart) 
+        echo -e "\e[33m Restarting RabbitMQ Service \e[0m"
+        exit 2
         ;;
     *)
-        echo -e "\e[36m Possible values are start or stop value only \e[0m"
+        echo -e "\e[36m Possible values are start or stop or restart only \e[0m"
+        exit 3
         ;;
-esac
+
+esac 
+
+
+#  exit : exit command helps us to take the script executing out of the script.

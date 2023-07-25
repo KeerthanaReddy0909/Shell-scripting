@@ -7,18 +7,18 @@
 
 #esac
 
-ACTION=1
+ACTION=$1
 case $ACTION in
     start)
-        echo " starting RabbitMQ service"
+        echo "starting RabbitMQ service"
         ;;
     stop)
-        echo " stopping RabbitMQ service"
+        echo "stopping RabbitMQ service"
         ;;
     restart)
-        echo " Restarting RabbitMQ service"
+        echo "Restarting RabbitMQ service"
         ;;
     *)
-        echo " Possible values are start or stop value only"
+        echo "Possible values are start or stop value only"
         ;;
 esac

@@ -4,7 +4,7 @@
 # " " - double quotes
 # '' - single quotes
 
-a =53
+a=53
 echo " value of variable a ${a}"
 echo value of variable a ${a}
 echo 'value of variable a ${a}'

@@ -10,15 +10,15 @@
 ACTION=$1
 case $ACTION in
     start)
-        echo "starting RabbitMQ service"
+        echo "\e[32m starting RabbitMQ service \e[0m"
         ;;
     stop)
-        echo "stopping RabbitMQ service"
+        echo "\e[33m stopping RabbitMQ service \e[0m"
         ;;
     restart)
-        echo "Restarting RabbitMQ service"
+        echo "\e[35m Restarting RabbitMQ service \e[0m"
         ;;
     *)
-        echo "Possible values are start or stop value only"
+        echo "\e[36m Possible values are start or stop value only \e[0m"
         ;;
 esac

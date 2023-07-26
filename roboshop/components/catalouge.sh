@@ -1,3 +1,7 @@
-#!/bin/bash
+#!/bin/bash 
 
-echo "I am Catalouge"
+COMPONENT="catalogue"
+
+source components/common.sh
+
+NODEJS

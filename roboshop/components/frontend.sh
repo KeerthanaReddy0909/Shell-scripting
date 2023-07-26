@@ -5,7 +5,7 @@ COMPONENT=frontend
 
 ID=$(id -u)
 
-if[ $ID -ne 0 ] ; then
+if [ $ID -ne 0 ] ; then
 echo -e "\e[31m This script is expected to run by  a Root user or with a sudo privilege \e[0m"
 exit 1
 fi

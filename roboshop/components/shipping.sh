@@ -7,5 +7,5 @@ source components/common.sh
 JAVA                          # Calling Nodej Function
 
 
-Password@7
-b52-mike
+#Password@7
+#b52-mike

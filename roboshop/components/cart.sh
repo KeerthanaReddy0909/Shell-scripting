@@ -1,3 +1,7 @@
-#!/bin/bash
+#!/bin/bash 
 
-echo "I am Cart"
+COMPONENT="cart"
+
+source components/common.sh
+
+NODEJS                          # Calling Nodej Function

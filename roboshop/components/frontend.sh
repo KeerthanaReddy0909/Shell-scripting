@@ -37,10 +37,10 @@ rm -rf *    &>> $LOGFILE
 stat $?
 
 echo -n "Extracting ${COMPONENT} component :"
-unzip /tmp/${COMPONENT}.zip   &>> $LOGFILE
+unzip /tmp/${COMPONENT}.zip   &>> $LOGFILE 
 # mv $COMPONENT-main/*  .
 mv static/* . &>> $LOGFILE
-rm -rf frontend-main README.md
+rm -rf ${COMPONENT}-main README.md
 mv localhost.conf /etc/nginx/default.d/roboshop.conf
 stat $? 
 

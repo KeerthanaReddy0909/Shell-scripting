@@ -1,3 +1,7 @@
-#!/bin/bash
+#!/bin/bash 
 
-echo "I am user"
+COMPONENT="user"
+
+source components/common.sh
+
+NODEJS                          # Calling Nodej Function

@@ -3,9 +3,24 @@
 
 COMPONENT=frontend
 
-source components/common.sh
+ID=$(id -u)
 
-echo -e "*********** \e[35m $COMPONENT Installation has started \e[0m ***********"
+if[ $ID -ne 0 ] ; then
+echo -e "\e[31m This script is expected to run by  a Root user or with a sudo privilege \e[0m"
+exit 1
+fi
+
+stat() {
+if [ $? -eq 0] ; then
+echo "\e[32m success \e[0m"
+else
+echo -e "\e[31m Failure \e[0m"
+exit 2
+fi
+}
+#source components/common.sh
+
+#echo -e "*********** \e[35m $COMPONENT Installation has started \e[0m ***********"
 
 echo -n "Installing Nginx :"
 yum install nginx -y  &>> $LOGFILE

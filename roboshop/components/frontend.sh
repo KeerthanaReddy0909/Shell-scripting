@@ -23,7 +23,7 @@ fi
 #echo -e "*********** \e[35m $COMPONENT Installation has started \e[0m ***********"
 
 echo -n "Installing Nginx :"
-yum install nginx -y  &>> $LOGFILE
+yum install nginx -y  &>> "/tmp/${COMPONENT}.log"
 stat $?
 
 echo -n "Downloading the ${COMPONENT} component :"

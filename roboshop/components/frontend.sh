@@ -20,7 +20,7 @@ cd /usr/share/nginx/html
 rm -rf *    &>> $LOGFILE
 stat $?
 
-echo -n "Extracting ${COMPOMENT} component :"
+echo -n "Extracting ${COMPONENT} component :"
 unzip /tmp/${COMPONENT}.zip   &>> $LOGFILE
 mv $COMPONENT-main/*  .
 mv static/* . 

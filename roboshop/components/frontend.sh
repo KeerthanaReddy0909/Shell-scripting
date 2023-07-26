@@ -32,7 +32,7 @@ stat $?
 
 echo -n "Performing Cleanup: "
 cd /usr/share/nginx/html
-rm -rf *    &>> $LOGFILE
+rm -rf *    &>> "/tmp/${COMPONENT}.log"
 stat $?
 
 echo -n "Extracting ${COMPONENT} component :"

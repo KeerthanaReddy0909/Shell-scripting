@@ -11,7 +11,7 @@ exit 1
 fi
 
 stat() {
-if [ $? -eq 0] ; then
+if [ $? -eq 0 ] ; then
 echo "\e[32m success \e[0m"
 else
 echo -e "\e[31m Failure \e[0m"
